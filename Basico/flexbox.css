@@ -1,0 +1,30 @@
+.container{
+    display: flex; /* Empezaremos a utilizar las propiedades de flexbox */
+    background-color: aqua;
+    justify-content: space-between; /* Para separar los elementos hijos dentro del div */
+}
+
+.item{
+    background-color: crimson;
+    width: 30px;
+    height: 30px;
+}
+
+.container2{
+    display: flex; /* Empezaremos a utilizar las propiedades de flexbox */
+    background-color: rosybrown;
+    justify-content: center; /* Para separar los elementos hijos dentro del div */
+    height: 200px;
+    align-items: center;
+    flex-direction: column; /*Dependera mucho de la propiedad align-items*/
+}
+
+.item2{
+    background-color: coral;
+    width: 30px;
+    height: 30px;
+}
+
+.container2 .item2:nth-child(2n+1){ /*Todos los numeros impares*/
+    background-color: turquoise;
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+a{
+    background-color: skyblue;
+    width: 200px; /*No aplica para elementons en linea*/
+    height: 200px; /*No aplica para elementons en linea*/
+    margin: 20px;
+}

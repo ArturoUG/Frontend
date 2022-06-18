@@ -1,0 +1,23 @@
+p{
+    color: black;
+}
+
+p:hover{
+    color: violet;
+}
+
+p::first-letter{
+    color: red;
+}
+
+p::after{
+    content: " Arturo ";
+}
+
+p::before{
+    content: "Hola ";
+}
+
+div p:nth-child(2){
+    color: turquoise;
+}

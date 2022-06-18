@@ -1,0 +1,21 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box; /*Esto hara que no se sume el padding que en total sean 200 y el width por lado sera de 160 mas 20 + 20 del padding dara 200.*/
+    margin: 1px yellow; /*Igual que con el padding se le restaran 1px de cada lado y pasara a ser 158 + 2 c/lado + 40 c/lado en total seran 160*/
+}
+
+.container{
+    display: flex; /*Esto hara que en margen tenga 20px cada caja si lo quitamos veras que se juntan las cajas = colapso de margenes*/
+    flex-direction: column;
+}
+
+.uno{
+    color: black;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}

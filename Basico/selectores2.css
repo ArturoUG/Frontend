@@ -1,0 +1,11 @@
+div > div{
+    background: violet;
+}
+
+div + section{ /* el section (hermano) despues del otro (hermano) div  */
+    background: red;
+}
+
+div ~ p{ /* el p (hermano) que esta despues del (hermano) div  */
+    color: turquoise;
+}

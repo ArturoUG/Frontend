@@ -1,0 +1,15 @@
+*{
+    color: red;
+}
+
+.clase{
+    background: pink;
+}
+
+#id{
+    background: violet;
+}
+
+a[href="https://platzi.com/"]{
+    background: black;
+}
