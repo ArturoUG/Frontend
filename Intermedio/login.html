@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>New Password</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
 </head>
 <body>
     <div class="login">
         <div class="form-container">
             <img src="./Iconos/logo_yard_sale.svg" class="logo" alt="logo">
-            <h1 class="title">Create a new password</h3>
-            <p class="subtitle">Enter a new password for you account</p>
 
             <form action="/" class="form">
+                <label for="email" class="label">Email address</label>
+                <input type="email" id="email" class="input input-email">
+
                 <label for="password" class="label">Password</label>
                 <input type="password" id="password" class="input input-password" placeholder="*****">
 
-                <label for="password2" class="label">Re-enter password</label>
-                <input type="password" id="password2" class="input input-password" placeholder="*****">
+                <input type="submit" value="Log in" class="primary-bttn login-bttn">
 
-                <input type="submit" value="Confirm" class="primary-bttn login-bttn">
+                <a href="/">Forgot my password</a>
 
+                <input type="button" value="Sign up" class="primary-bttn sign-bttn">
             </form>
         </div>
     </div>

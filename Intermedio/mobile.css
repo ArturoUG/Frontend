@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Quicksand:wght@300;500;700&display=swap');
+
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: black;
+    --sm: 14px;
+    --mm: 16px;
+    --lg: 18px;
+    --ff: Quicksand;
+}
+
+body{
+    margin: 0;
+    font-family: var(--ff);
+}
+
+.mobile-menu{
+    width: 100px;
+    height: auto;
+    padding: 24px 24px 0 24px;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0 ;
+}
+
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.email{
+    font-size: var(--sm);
+    font-weight: 300 !important;
+}
+
+.sign-out{
+    font-size: var(--sm);
+    font-weight: 300 !important;
+    color: var(--hospital-green) !important;
+}
