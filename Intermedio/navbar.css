@@ -16,7 +16,7 @@ body{
     margin: 0;
     font-family: var(--ff);
 }
-
+    
 nav{
     display: flex;
     justify-content: space-between;
